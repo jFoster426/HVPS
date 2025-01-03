@@ -1,0 +1,11 @@
+Added Component: Designator=M1(WAKEFIELD_OMNI-UNI-18-50)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.mouser.com/datasheet/2/433/omniKlip_Wakefield_Vette-3050203.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Wakefield Thermal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 Part Number"; Value = "OMNI-UNI-18-50"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Name"; Value = "MECH,Heatsink,omniKlip,OMNI-UNI-18-50"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor 1 Part Number"; Value = "567-OMNI-UNI-18-50"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=COM Pin=M1-1
+Added Pin To Net: NetName=COM Pin=M1-2
+Added Member To Class: ClassName=HVPS Member=Component M1 MECH,Heatsink,omniKlip,OMNI-UNI-18-50
