@@ -1,0 +1,22 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [HVPS.PrjPcb]
+   Generated File[HVPS_Copper_Signal_Top.gbr]
+   Generated File[HVPS_Copper_Signal_1.gbr]
+   Generated File[HVPS_Copper_Signal_2.gbr]
+   Generated File[HVPS_Copper_Signal_Bot.gbr]
+   Generated File[HVPS_Legend_Top.gbr]
+   Generated File[HVPS_Legend_Bot.gbr]
+   Generated File[HVPS_Soldermask_Top.gbr]
+   Generated File[HVPS_Soldermask_Bot.gbr]
+   Generated File[HVPS_Paste_Top.gbr]
+   Generated File[HVPS_Paste_Bot.gbr]
+   Generated File[HVPS_Profile.gbr]
+   Generated File[HVPS_NPTH_Drill.gbr]
+   Generated File[HVPS_PTH_Drill.gbr]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 5:07:43 PM On 2025-01-04
