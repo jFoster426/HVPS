@@ -1,22 +1,26 @@
 Circuit: * C:\Users\juddf\Documents\HVPS\LTSpice\Draft1.asc
 
-Direct Newton iteration for .op point succeeded.
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+.OP point found by inspection.
 
-Date: Sat Dec 14 16:28:19 2024
-Total elapsed time: 0.048 seconds.
+Date: Sun Jan 19 13:56:02 2025
+Total elapsed time: 0.129 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2085
-traniter = 2082
-tranpoints = 1042
-accept = 1042
-rejected = 0
-matrix size = 6
-fillins = 0
-solver = Normal
-Avg thread counts: 3.8/6.7/6.7/3.8
-Matrix Compiler1:      10 opcodes  0.1/[0.0]/0.1
-Matrix Compiler2: 374 bytes object code size  0.1/0.1/[0.1]
+totiter = 2886
+traniter = 2886
+tranpoints = 1383
+accept = 1314
+rejected = 69
+matrix size = 16
+fillins = 16
+solver = Alternate
+Avg thread counts: 3.0/5.2/5.3/3.0
+Matrix Compiler1: 2.39 KB object code size  0.6/0.5/[0.5]
+Matrix Compiler2: 1.79 KB object code size  0.3/0.2/[0.1]
 
