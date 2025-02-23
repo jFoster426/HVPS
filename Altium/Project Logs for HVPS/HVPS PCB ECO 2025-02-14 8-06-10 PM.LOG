@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=+5V0A Pin=C16-2
+Removed Pin From Net: NetName=COM Pin=C19-1
+Removed Pin From Net: NetName=+5V0A Pin=C19-2
+Removed Pin From Net: NetName=COM Pin=C20-1
+Removed Pin From Net: NetName=+5V0A Pin=C20-2
+Removed Pin From Net: NetName=COM Pin=C21-1
+Removed Pin From Net: NetName=+5V0A Pin=C21-2
+Removed Pin From Net: NetName=+5V0 Pin=L1-1
+Removed Pin From Net: NetName=+5V0A Pin=U1-3
+Removed Member From Class: ClassName=PWR Member=C19
+Removed Member From Class: ClassName=PWR Member=C20
+Removed Member From Class: ClassName=PWR Member=C21
+Removed Member From Class: ClassName=PWR Member=L1
+Change Component Footprint: Designator=L1 Old Footprint=BOURNS_SRN6045TA New Footprint=INDC1005X05N
+Change Component Comment : Designator=L1 Old Comment=6.8uH,3.6A,Wirewound,SMD New Comment=470R
+Change component parameters: Designator = "L1" ("L1"); Footprint = "BOURNS_SRN6045TA"; UniqueID = "\IBRXSSUG\FBOHDFSU" ("\IBRXSSUG\FBOHDFSU")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.murata.com/en-us/products/productdata/8796740059166/ENFA0018.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1 Part Number"; Value = "BLM15PX471SN1D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Name"; Value = "Ferrite,470R@100MHz,0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "470R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor 1 Part Number"; Value = "490-10662-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=NetC16_2 Pin=L1-1
+Added Pin To Net: NetName=NetC16_2 Pin=U1-3
+Added Net: Name=NetC16_2
+Added Member To Class: ClassName=MCU Member=Component J5 302-S101
+Added Member To Class: ClassName=CSA Member=Component L1 470R

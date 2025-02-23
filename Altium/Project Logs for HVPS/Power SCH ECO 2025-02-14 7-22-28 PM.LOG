@@ -1,0 +1,26 @@
+Replace Part C19 CAP,Cer,10uF,50VDC,X5R,1206 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with CAP,Cer,10uF,50VDC,X5R,1206 from Component Library.DbLib
+Replace Part C20 CAP,Cer,10uF,50VDC,X5R,1206 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with CAP,Cer,10uF,50VDC,X5R,1206 from Component Library.DbLib
+Replace Part C21 CAP,Cer,10uF,50VDC,X5R,1206 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with CAP,Cer,10uF,50VDC,X5R,1206 from Component Library.DbLib
+Replace Part C23 CAP,Cer,10uF,50VDC,X5R,1206 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with CAP,Cer,10uF,50VDC,X5R,1206 from Component Library.DbLib
+Replace Part C24 CAP,Cer,10uF,50VDC,X5R,1206 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with CAP,Cer,10uF,50VDC,X5R,1206 from Component Library.DbLib
+Replace Part C27 CAP,Cer,10uF,50VDC,X5R,1206 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with CAP,Cer,10uF,50VDC,X5R,1206 from Component Library.DbLib
+Replace Part C28 CAP,Cer,10uF,50VDC,X5R,1206 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with CAP,Cer,10uF,50VDC,X5R,1206 from Component Library.DbLib
+Replace Part C29 CAP,Cer,33nF,10%,25V,X7R,0402 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with CAP,Cer,33nF,10%,25V,X7R,0402 from Component Library.DbLib
+Replace Part C30 CAP,Omit,0402 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with CAP,Omit,0402 from Component Library.DbLib
+Replace Part C31 CAP,Cer,10uF,50VDC,X5R,1206 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with CAP,Cer,10uF,50VDC,X5R,1206 from Component Library.DbLib
+Replace Part C34 CAP,Cer,10uF,50VDC,X5R,1206 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with CAP,Cer,10uF,50VDC,X5R,1206 from Component Library.DbLib
+Replace Part L1 IND,6.8uH,3.6A,Wirewound,SMD in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with IND,6.8uH,3.6A,Wirewound,SMD from Component Library.DbLib
+Replace Part L2 IND,6.8uH,3.6A,Wirewound,SMD in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with IND,6.8uH,3.6A,Wirewound,SMD from Component Library.DbLib
+Replace Part Q3 MOSFET,P Ch,30V,3.8A in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with MOSFET,P Ch,30V,3.8A from Component Library.DbLib
+Replace Part Q4 Trans,NPN,40V,600mA,SOT523 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with Trans,NPN,40V,600mA,SOT523 from Component Library.DbLib
+Replace Part R17 RES,511k,1%,0.063W,0402 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with RES,511k,1%,0.063W,0402 from Component Library.DbLib
+Replace Part R18 RES,49R9,1%,0.063W,0402 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with RES,49R9,1%,0.063W,0402 from Component Library.DbLib
+Replace Part R19 RES.53k6,1%,0.063W,0402 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with RES.53k6,1%,0.063W,0402 from Component Library.DbLib
+Replace Part R20 RES,88k7,1%,0.063W,0402 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with RES,88k7,1%,0.063W,0402 from Component Library.DbLib
+Replace Part R21 RES,10k2,1%,0.063W,0402 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with RES,10k2,1%,0.063W,0402 from Component Library.DbLib
+Replace Part R22 RES,10k,5%,0.063W,0402 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with RES,10k,5%,0.063W,0402 from Component Library.DbLib
+Replace Part R23 RES,10k,5%,0.063W,0402 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with RES,10k,5%,0.063W,0402 from Component Library.DbLib
+Replace Part R24 RES,10k2,1%,0.063W,0402 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with RES,10k2,1%,0.063W,0402 from Component Library.DbLib
+Replace Part R25 RES,887R,1%,0.063W,0402 in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with RES,887R,1%,0.063W,0402 from Component Library.DbLib
+Replace Part U2 TPS62932DRLR in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with TPS62932DRLR from Component Library.DbLib
+Replace Part U3 LM317G in C:\Users\juddf\Documents\HVPS\Altium\Power.SchDoc with LM317G from Component Library.DbLib

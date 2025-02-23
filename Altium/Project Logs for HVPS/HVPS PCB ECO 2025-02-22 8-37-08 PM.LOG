@@ -1,0 +1,30 @@
+Added Component: Designator=TP12(TP100)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Name"; Value = "Testpoint,Pad,SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor 1"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor 1 Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Component: Designator=TP13(TP100)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Name"; Value = "Testpoint,Pad,SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor 1"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor 1 Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Component: Designator=TP14(TP100)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Name"; Value = "Testpoint,Pad,SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor 1"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor 1 Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDIV Pin=TP12-1
+Added Pin To Net: NetName=CSP Pin=TP13-1
+Added Pin To Net: NetName=CSN Pin=TP14-1
+Added Member To Class: ClassName=XFR Member=Component TP12 Testpoint,Pad,SMD,1mm,Round
+Added Member To Class: ClassName=CSA Member=Component TP13 Testpoint,Pad,SMD,1mm,Round
+Added Member To Class: ClassName=CSA Member=Component TP14 Testpoint,Pad,SMD,1mm,Round

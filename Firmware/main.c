@@ -3,99 +3,141 @@
 #define BSF(REG, VAL) REG |=  (1 << VAL)
 #define BCF(REG, VAL) REG &= ~(1 << VAL)
 
-void dac_init(void)
+void fvr_init(void)
 {
+    FVRCON = (1 << 7) |      // FVR is enabled
+             (0b11 << 2) |   // FVR Buffer 2 is 4.096 V
+             (0b11 << 0);    // FVR Buffer 1 is 4.096 V
+    while ((FVRCON & (1 << 6)) == 0); // Wait for reference to stabilize
+}
+
+void dac1_init(void)
+{
+    BSF(TRISA,  2);          // Digital output buffer disabled on RA2
+    BSF(ANSELA, 2);          // Digital input buffer disabled on RA2
+
     DAC1CON = (1    << 7) |  // DAC is enabled
-              (0b00 << 4) |  // DACOUT is disabled
+              (0b01 << 4) |  // DAC1OUT is enabled on RA2
               (0b10 << 2) |  // PSS is connected to FVR Buffer 2
               (0    << 0);   // NSS is connected to VSS
 }
 
-void dac_write(uint16_t data)
+void dac1_write(uint16_t data)
 {
-    DAC1DAT = data & 0b1111111111;
+    DAC1DAT = data & 0xFFF;
 }
 
-void cmp1_init(void)
+void dac2_init(void)
 {
-    CM1CON0 = (1    << 7) | // Comparator enabled
-              (0    << 6) | // Comparator output is 0 if C1VP < C1VN
-              (0    << 5) | // Output is not inverted
-              (0b00 << 1) | // No hysteresis
-              (0    << 0);  // Comparator output is asynchronous
-    CM1CON1 = (0b11 << 2) | // Comparator operates in high-speed mode 1
-              (0    << 1) | // No interrupt flag set on positive edge
-              (0    << 0);  // No interrupt flag set on negative edge
-    CM1NCH  = 0b011;        // NCH is connected to C1IN3- (RB1 ** TO BE REWORKED ON PCB **)
-    CM1PCH  = 0b011;        // PCH is connected to DAC1OUT
+    DAC2CON = (1    << 7) |  // DAC is enabled
+              (0b00 << 4) |  // DAC2OUT is disabled
+              (0b10 << 2) |  // PSS is connected to FVR Buffer 2
+              (0    << 0);   // NSS is connected to VSS
 }
 
-void cmp2_init(void)
+void dac2_write(uint8_t data)
 {
-    CM2CON0 = (1    << 7) | // Comparator enabled
-              (0    << 6) | // Comparator output is 0 if C2VP < C2VN
-              (0    << 5) | // Output is not inverted
-              (0b00 << 1) | // No hysteresis
-              (0    << 0);  // Comparator output is asynchronous
-    CM2CON1 = (0b11 << 2) | // Comparator operates in high-speed mode 1
-              (0    << 1) | // No interrupt flag set on positive edge
-              (0    << 0);  // No interrupt flag set on negative edge
-    CM2NCH  = 0b000;        // NCH is connected to C2IN0-
-    CM2PCH  = 0b000;        // PCH is connected to C2IN0+
+    DAC2DATL = data;
 }
 
-void clc1_init(void)
+void dac3_init(void)
 {
+    BSF(TRISA,  2);          // Digital output buffer disabled on RA2
+    BSF(ANSELA, 2);          // Digital input buffer disabled on RA2
 
+    DAC3CON = (1    << 7) |  // DAC is enabled
+              (0b00 << 4) |  // DAC3OUT is disabled
+              (0b10 << 2) |  // PSS is connected to FVR Buffer 2
+              (0    << 0);   // NSS is connected to VSS
 }
 
-void gsx_init(void)
+void dac3_write(uint8_t data)
 {
-    TRISA &= ~((0 << 4) | // GS0
-               (0 << 5)); // GS1
+    DAC3DATL = data;
 }
 
-void gsx_write(uint8_t data)
+void opa1_init(void)
 {
-    data <<= 4;
-    data &= 0b00110000;
-    LATA &= 0b11001111;
-    LATA |= data;
+    OPA1CON0 = (1 << 7) |    // Operational amplifier is enabled
+               (1 << 5) |    // Charge pump on
+               (1 << 3);     // Unity gain
+    OPA1CON1 = 0;            // Not used
+    OPA1CON2 = 0b101;        // PCH is connected to DAC2OUT
+    OPA1CON3 = (0 << 5);     // OPA1OUT is enabled
+    OPA1CON4 = 0;            // Not used
+    OPA1HWC  = (0 << 7);     // HW override control disabled
+
+    BSF(TRISA,  1);          // Digital output buffer disabled on RA1
+    BSF(ANSELA, 1);          // Digital input buffer disabled on RA1
 }
 
+void opa2_init(void)
+{
+    OPA2CON0 = (1 << 7) |    // Operational amplifier is enabled
+               (1 << 5) |    // Charge pump on
+               (1 << 3);     // Unity gain
+    OPA2CON1 = 0;            // Not used
+    OPA2CON2 = 0b110;        // PCH is connected to DAC3OUT
+    OPA2CON3 = (0 << 5);     // OPA2OUT is enabled
+    OPA2CON4 = 0;            // Not used
+    OPA2HWC  = (0 << 7);     // HW override control disabled
 
+    BSF(TRISB,  1);          // Digital output buffer disabled on RB1
+    BSF(ANSELB, 1);          // Digital input buffer disabled on RB1
+}
+
+void clc_init(void)
+{
+    CLCSELECT = 0;           // Select CLC1
+    CLCnCON = (1     << 7) | // CLC is enabled
+              (0b011 << 0);  // Cell is SR latch
+    CLCnPOL = 0;             // Gates are not inverted
+    CLCnSEL0 = 0b00100101;   // Input is CLC1
+    CLCnSEL1 = 0b00100110;   // Input is CLC2
+    CLCnSEL2 = 0b00101111;   // Input is CLC3
+    CLCnSEL3 = 0b00110000;   // Input is CLC4
+    CLCnGLS0 = 0b00000010;   // Input from CLC1 is OR'ed (non-negated) into S of SR latch
+    CLCnGLS1 = 0b00000000;   // Not used
+    CLCnGLS2 = 0b00001000;   // Input from CLC2 is OR'ed (non-negated) into R of SR latch
+    CLCnGLS3 = 0b00100000;   // Input from CLC3 is OR'ed (non-negated) into R of SR latch
+}
+
+void adc_init(void)
+{
+    ADCON0
+    ADCON1
+    ADCON2
+    ADCON3
+    ADCLK
+    ADREF
+    ADPCH
+    ADNCH
+    ADPRE
+    ADACQ
+    ADCAP
+    ADRPT
+    ADCNT
+    ADFLTR
+    ADRES
+    ADPREV
+    ADACC
+    ADSTPT
+    ADERR
+    ADCP
+    ADLTH
+    ADUTH
+    ADACT
+    ADCTX
+    ADCSELx
+    ADCGxA
+    ADCGxB
+    ADCGxC
+    ADCGxD
+    ADCGxE
+    
+}
 
 void main(void)
 {
-    BCF(TRISA, 4); // Set GS0 to output
-    BCF(TRISA, 5); // Set GS1 to outupt
-    BCF(LATA,  4);
-    BCF(LATA,  5);
-
-    BCF(TRISA, 1); // Set GDRV to output
-    BCF(LATA,  1); // Set GDRV low
-
-    BCF(TRISB, 2); // Set #FLT to output
-    BCF(TRISB, 3); // Set #CHG to output
-
-    
-
-
-    while (1)
-    {
-        // BCF(LATB, 2);
-        // __delay_ms(100);
-        // BSF(LATB, 2);
-        // __delay_ms(100);
-        // BCF(LATB, 3);
-        // __delay_ms(100);
-        // BSF(LATB, 3);
-        // __delay_ms(100);
-
-        BSF(LATA, 1);
-        __delay_us(4);
-        BCF(LATA, 1);
-        __delay_us(1);
-    }
 
 }

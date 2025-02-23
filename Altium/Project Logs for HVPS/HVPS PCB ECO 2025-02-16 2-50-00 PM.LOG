@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=#RED Pin=U8-34
+Removed Pin From Net: NetName=#GRN Pin=U8-35
+Removed Pin From Net: NetName=GDRV Pin=U8-36
+Added Pin To Net: NetName=GDRV Pin=U8-13
+Added Pin To Net: NetName=#RED Pin=U8-14
+Added Pin To Net: NetName=#GRN Pin=U8-15

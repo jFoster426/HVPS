@@ -1,0 +1,10 @@
+Added Component: Designator=TP11(TP100)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Name"; Value = "Testpoint,Pad,SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor 1"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor 1 Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GDRV Pin=TP11-1
+Added Member To Class: ClassName=GD Member=Component TP11 Testpoint,Pad,SMD,1mm,Round

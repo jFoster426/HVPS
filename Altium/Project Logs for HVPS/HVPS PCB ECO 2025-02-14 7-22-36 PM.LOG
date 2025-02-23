@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=+5V0EXT Pin=J1-1
+Removed Pin From Net: NetName=COM Pin=J1-2
+Removed Member From Class: ClassName=PWR Member=J1
+Change Footprint: Footprint Not Found CAPC1005X06N
+Change Footprint: Footprint Not Found CAPC1005X06N
+Add Component: Footprint Not Found WURTH_61300211121
+Add Pin To Net: Unknown Pin: Pin J?-1
+Add Pin To Net: Unknown Pin: Pin J?-2
+Add Class Member: Failed to add class member : Component J? Term,Header,2 Pin,Top,2.54mm

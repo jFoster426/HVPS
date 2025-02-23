@@ -1,10 +1,10 @@
-Record=TopLevelDocument|FileName=Block Diagram.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=Block Diagram.SchDoc|FileName=Comparators.SchDoc|SheetNumber=10
-Record=NoMainPathDocument|SourceDocument=Block Diagram.SchDoc|FileName=Connectors.SchDoc|SheetNumber=8
-Record=NoMainPathDocument|SourceDocument=Block Diagram.SchDoc|FileName=Current Sense Amplifier.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=Block Diagram.SchDoc|FileName=Gate Drive.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=Block Diagram.SchDoc|FileName=HVPS.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Block Diagram.SchDoc|FileName=Microcontroller.SchDoc|SheetNumber=9
-Record=NoMainPathDocument|SourceDocument=Block Diagram.SchDoc|FileName=Power.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=Block Diagram.SchDoc|FileName=Transceivers.SchDoc|SheetNumber=7
-Record=NoMainPathDocument|SourceDocument=Block Diagram.SchDoc|FileName=Transformer.SchDoc|SheetNumber=3
+Record=TopLevelDocument|FileName=Top.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=BD|SchDesignator=BD|FileName=Block Diagram.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Block Diagram.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=CMP|SchDesignator=CMP|FileName=Comparators.SchDoc|SheetNumber=10|SymbolType=Normal|RawFileName=Comparators.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=CONN|SchDesignator=CONN|FileName=Connectors.SchDoc|SheetNumber=8|SymbolType=Normal|RawFileName=Connectors.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=CSA|SchDesignator=CSA|FileName=Current Sense Amplifier.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=Current Sense Amplifier.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=GD|SchDesignator=GD|FileName=Gate Drive.SchDoc|SheetNumber=6|SymbolType=Normal|RawFileName=Gate Drive.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=Microcontroller.SchDoc|SheetNumber=9|SymbolType=Normal|RawFileName=Microcontroller.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=PWR|SchDesignator=PWR|FileName=Power.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=Power.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=XCVR|SchDesignator=XCVR|FileName=Transceivers.SchDoc|SheetNumber=7|SymbolType=Normal|RawFileName=Transceivers.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=XFR|SchDesignator=XFR|FileName=Transformer.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Transformer.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

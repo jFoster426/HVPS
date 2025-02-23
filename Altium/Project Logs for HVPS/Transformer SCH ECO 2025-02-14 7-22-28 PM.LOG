@@ -1,0 +1,32 @@
+Replace Part C1 CAP,Alum,220uF,20%,50VDC,Radial,Thru in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Alum,220uF,20%,50VDC,Radial,Thru from Component Library.DbLib
+Replace Part C2 CAP,Alum,220uF,20%,50VDC,Radial,Thru in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Alum,220uF,20%,50VDC,Radial,Thru from Component Library.DbLib
+Replace Part C3 CAP,Alum,220uF,20%,50VDC,Radial,Thru in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Alum,220uF,20%,50VDC,Radial,Thru from Component Library.DbLib
+Replace Part C4 CAP,Cer,10uF,50VDC,X5R,1206 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Cer,10uF,50VDC,X5R,1206 from Component Library.DbLib
+Replace Part C5 CAP,Cer,10uF,50VDC,X5R,1206 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Cer,10uF,50VDC,X5R,1206 from Component Library.DbLib
+Replace Part C6 CAP,Cer,100nF,10%,630V,X7R,1808 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Cer,100nF,10%,630V,X7R,1808 from Component Library.DbLib
+Replace Part C7 CAP,Omit,0805 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Omit,0805 from Component Library.DbLib
+Replace Part C8 CAP,Cer,100nF,10%,630V,X7R,1808 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Cer,100nF,10%,630V,X7R,1808 from Component Library.DbLib
+Replace Part C9 CAP,Omit,0805 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Omit,0805 from Component Library.DbLib
+Replace Part C10 CAP,Cer,100nF,10%,630V,X7R,1808 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Cer,100nF,10%,630V,X7R,1808 from Component Library.DbLib
+Replace Part C11 CAP,Omit,0805 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Omit,0805 from Component Library.DbLib
+Replace Part C12 CAP,Cer,100nF,10%,630V,X7R,1808 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Cer,100nF,10%,630V,X7R,1808 from Component Library.DbLib
+Replace Part C13 CAP,Omit,0805 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Omit,0805 from Component Library.DbLib
+Replace Part C14 CAP,Omit,0805 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Omit,0805 from Component Library.DbLib
+Replace Part C15 CAP,Omit,0805 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with CAP,Omit,0805 from Component Library.DbLib
+Replace Part D1 DIODE,Gen,600V,3A,SMB in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with DIODE,Gen,600V,3A,SMB from Component Library.DbLib
+Replace Part D2 DIODE,Gen,600V,3A,SMB in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with DIODE,Gen,600V,3A,SMB from Component Library.DbLib
+Replace Part D3 DIODE,TVS,495VWM,SMD in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with DIODE,TVS,495VWM,SMD from Component Library.DbLib
+Replace Part M1 MECH,Heatsink,omniKlip,OMNI-UNI-18-50 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with MECH,Heatsink,omniKlip,OMNI-UNI-18-50 from Component Library.DbLib
+Replace Part Q1 MOSFET,N Ch,200V,50A,IRFP260MPBF in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with MOSFET,N Ch,200V,50A,IRFP260MPBF from Component Library.DbLib
+Replace Part Q2 MOSFET,N Ch,200V,50A,IRFP260MPBF in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with MOSFET,N Ch,200V,50A,IRFP260MPBF from Component Library.DbLib
+Replace Part R1 RES,442k,0.1%,0.125W,0805 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with RES,442k,0.1%,0.125W,0805 from Component Library.DbLib
+Replace Part R2 RES,442k,0.1%,0.125W,0805 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with RES,442k,0.1%,0.125W,0805 from Component Library.DbLib
+Replace Part R3 RES,442k,0.1%,0.125W,0805 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with RES,442k,0.1%,0.125W,0805 from Component Library.DbLib
+Replace Part R4 RES,10R,1%,0.25W,1206 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with RES,10R,1%,0.25W,1206 from Component Library.DbLib
+Replace Part R5 RES,442k,0.1%,0.125W,0805 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with RES,442k,0.1%,0.125W,0805 from Component Library.DbLib
+Replace Part R6 RES,10R,1%,0.25W,1206 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with RES,10R,1%,0.25W,1206 from Component Library.DbLib
+Replace Part R7 RES,442k,0.1%,0.125W,0805 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with RES,442k,0.1%,0.125W,0805 from Component Library.DbLib
+Replace Part R8 RES,0R005,1%,2W,2512 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with RES,0R005,1%,2W,2512 from Component Library.DbLib
+Replace Part R9 RES,10k,0.1%,0.063W,0402 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with RES,10k,0.1%,0.063W,0402 from Component Library.DbLib
+Replace Part R10 RES,0R005,1%,2W,2512 in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with RES,0R005,1%,2W,2512 from Component Library.DbLib
+Replace Part T1 XFR,Flyback,COILCRAFT_GA3460-BL in C:\Users\juddf\Documents\HVPS\Altium\Transformer.SchDoc with XFR,Flyback,COILCRAFT_GA3460-BL from Component Library.DbLib
