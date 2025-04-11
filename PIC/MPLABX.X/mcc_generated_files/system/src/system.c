@@ -37,6 +37,7 @@ void SYSTEM_Initialize(void)
 {
     CLOCK_Initialize();
     PIN_MANAGER_Initialize();
+    ADC_Initialize();
     CLC1_Initialize();
     CLC2_Initialize();
     CMP1_Initialize();

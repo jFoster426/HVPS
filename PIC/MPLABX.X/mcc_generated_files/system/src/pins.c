@@ -50,7 +50,7 @@ void PIN_MANAGER_Initialize(void)
     /**
     TRISx registers
     */
-    TRISA = 0xFF;
+    TRISA = 0xFD;
     TRISB = 0xFF;
     TRISC = 0xFF;
     TRISD = 0xFF;
@@ -117,6 +117,7 @@ void PIN_MANAGER_Initialize(void)
     /**
     PPS registers
     */
+    RA1PPS = 0x01;  //RA1->CLC1:CLC1;
 
    /**
     IOCx registers 

@@ -32,6 +32,7 @@
 
 #include <xc.h>
 #include "../cmp2.h"
+#include "../../system/interrupt.h"
 
 static void (*CMP2_InterruptHandler)(void);
 static void CMP2_DefaultInterruptCallback(void);
@@ -70,7 +71,7 @@ bool CMP2_GetOutputStatus(void)
                                                    is mirror copy of CMxCON0.OUT */
 }
 
-void CMP2_ISR(void) 
+void __interrupt(irq(CMP2),base(8)) CMP2_ISR()
 {
     // Clear the CMP2 interrupt flag
     PIR5bits.C2IF = 0;

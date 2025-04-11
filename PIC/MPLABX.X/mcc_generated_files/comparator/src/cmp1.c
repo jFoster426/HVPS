@@ -32,6 +32,7 @@
 
 #include <xc.h>
 #include "../cmp1.h"
+#include "../../system/interrupt.h"
 
 static void (*CMP1_InterruptHandler)(void);
 static void CMP1_DefaultInterruptCallback(void);
@@ -70,7 +71,7 @@ bool CMP1_GetOutputStatus(void)
                                                    is mirror copy of CMxCON0.OUT */
 }
 
-void CMP1_ISR(void) 
+void __interrupt(irq(CMP1),base(8)) CMP1_ISR()
 {
     // Clear the CMP1 interrupt flag
     PIR1bits.C1IF = 0;

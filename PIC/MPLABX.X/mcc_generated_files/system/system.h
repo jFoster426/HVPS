@@ -39,6 +39,7 @@
 #include "config_bits.h"
 #include "../system/clock.h"
 #include "../system/pins.h"
+#include "../adc/adc.h"
 #include "../clc/clc1.h"
 #include "../clc/clc2.h"
 #include "../comparator/cmp1.h"

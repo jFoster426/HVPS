@@ -5,7 +5,11 @@
         <group>
             <file>file:/C:/Users/juddf/Documents/HVPS/PIC/MPLABX.X/main.c</file>
             <file>file:/C:/Users/juddf/Documents/HVPS/PIC/MPLABX.X/mcc_generated_files/system/src/system.c</file>
-            <file>file:/C:/Users/juddf/Documents/HVPS/PIC/MPLABX.X/mcc_generated_files/timer/src/tmr2.c</file>
+            <file>file:/C:/Users/juddf/Documents/HVPS/PIC/MPLABX.X/mcc_generated_files/system/src/interrupt.c</file>
+            <file>file:/C:/Users/juddf/Documents/HVPS/PIC/MPLABX.X/mcc_generated_files/system/src/config_bits.c</file>
+            <file>file:/C:/Users/juddf/Documents/HVPS/PIC/MPLABX.X/mcc_generated_files/system/src/pins.c</file>
+            <file>file:/C:/Users/juddf/Documents/HVPS/PIC/MPLABX.X/mcc_generated_files/system/src/clock.c</file>
+            <file>file:/C:/Users/juddf/Documents/HVPS/PIC/MPLABX.X/mcc_generated_files/adc/src/adc.c</file>
         </group>
     </open-files>
 </project-private>

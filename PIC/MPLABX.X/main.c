@@ -44,11 +44,17 @@ int main(void)
     // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global Interrupts 
     // Use the following macros to: 
 
-    // Enable the Global Interrupts 
-    //INTERRUPT_GlobalInterruptEnable(); 
+    // Enable the Global High Interrupts 
+    //INTERRUPT_GlobalInterruptHighEnable(); 
 
-    // Disable the Global Interrupts 
-    //INTERRUPT_GlobalInterruptDisable(); 
+    // Disable the Global High Interrupts 
+    //INTERRUPT_GlobalInterruptHighDisable(); 
+
+    // Enable the Global Low Interrupts 
+    //INTERRUPT_GlobalInterruptLowEnable(); 
+
+    // Disable the Global Low Interrupts 
+    //INTERRUPT_GlobalInterruptLowDisable(); 
 
 
     while(1)

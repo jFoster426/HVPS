@@ -355,6 +355,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Parameter1]
+Name=Designer
+Value=Judd Foster
+
 [Configuration1]
 Name=Sources
 ParameterCount=0

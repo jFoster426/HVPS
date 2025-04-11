@@ -74,14 +74,6 @@ bool CMP1_GetOutputStatus(void);
 
 /**
  * @ingroup cmp1
- * @brief Implements the Interrupt Service Routine (ISR) for the CMP interrupt.
- * @param None.
- * @return None.
- */
-void CMP1_ISR(void);
-
-/**
- * @ingroup cmp1
  * @brief Setter function for comparator interrupt callback.
  * @param CallbackHandler - Pointer to the custom callback
  * @return None.
