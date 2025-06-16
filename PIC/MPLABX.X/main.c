@@ -55,6 +55,8 @@ int main(void)
 
     // Disable the Global Low Interrupts 
     //INTERRUPT_GlobalInterruptLowDisable(); 
+    
+    DAC1DAT = 0;
 
 
     while(1)

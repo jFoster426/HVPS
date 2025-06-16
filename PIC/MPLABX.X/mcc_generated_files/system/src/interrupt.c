@@ -59,8 +59,6 @@ void  INTERRUPT_Initialize (void)
 
     GIE = state;
     // Assign peripheral interrupt priority vectors
-    IPR1bits.ADCH1IP = 1;
-    IPR1bits.ADIP = 1;
 
     // Clear the interrupt flag
     // Set the external interrupt edge detect

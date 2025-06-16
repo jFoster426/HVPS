@@ -1,0 +1,114 @@
+Circuit: * C:\Users\juddf\Documents\HVPS\LTSpice\CV.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.666667
+Gmin = 3.26162
+vernier = 0.888888
+Gmin = 0.528136
+vernier = 1
+Gmin = 0.0567082
+Gmin = 0.006089
+Gmin = 0.000653801
+Gmin = 7.02013e-05
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 6.05102e-05
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 6.0216e-05
+vernier = 0.00520833
+Gmin = 5.95149e-05
+vernier = 0.00694444
+vernier = 0.00925925
+Gmin = 5.83565e-05
+vernier = 0.0123457
+vernier = 0.0164609
+Gmin = 5.65566e-05
+vernier = 0.0219478
+Gmin = 5.38382e-05
+vernier = 0.0292638
+vernier = 0.0390184
+Gmin = 4.95716e-05
+vernier = 0.0520245
+vernier = 0.0693659
+Gmin = 4.34706e-05
+vernier = 0.0924879
+Gmin = 3.53805e-05
+vernier = 0.123317
+vernier = 0.164423
+vernier = 0.0822114
+Gmin = 2.77532e-05
+vernier = 0.0411057
+vernier = 0.0205529
+vernier = 0.0102764
+vernier = 0.00513821
+Gmin = 2.75759e-05
+vernier = 0.00685095
+Gmin = 2.71544e-05
+vernier = 0.0091346
+vernier = 0.0121795
+Gmin = 2.64615e-05
+vernier = 0.0162393
+vernier = 0.0216524
+Gmin = 2.53938e-05
+vernier = 0.0288698
+Gmin = 2.38018e-05
+vernier = 0.0384931
+vernier = 0.0513241
+Gmin = 2.13553e-05
+vernier = 0.0684321
+vernier = 0.0912428
+Gmin = 1.79738e-05
+vernier = 0.121657
+Gmin = 1.3721e-05
+vernier = 0.162209
+vernier = 0.216279
+Gmin = 8.75641e-06
+vernier = 0.288372
+vernier = 0.384496
+Gmin = 4.3199e-06
+vernier = 0.512661
+Gmin = 1.45144e-06
+vernier = 0.683548
+vernier = 0.911397
+Gmin = 2.47815e-07
+vernier = 1
+Gmin = 2.75777e-08
+Gmin = 2.96113e-09
+Gmin = 3.17949e-10
+Gmin = 3.41395e-11
+Gmin = 3.66571e-12
+Gmin = 3.93602e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Sat Apr 26 21:07:04 2025
+Total elapsed time: 0.968 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 7621
+traniter = 5446
+tranpoints = 2601
+accept = 2135
+rejected = 466
+matrix size = 288
+fillins = 520
+solver = Alternate
+Avg thread counts: 5.2/4.3/3.3/2.1
+Matrix Compiler1: 59.94 KB object code size  14.7/11.9/[10.6]
+Matrix Compiler2: 37.75 KB object code size  5.4/6.2/[3.8]
+

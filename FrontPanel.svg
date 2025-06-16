@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="253mm"
+   height="112mm"
+   viewBox="0 0 253 112"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="FrontPanel.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+    <rect
+       x="62.274035"
+       y="59.826584"
+       width="1.0877561"
+       height="39.159219"
+       id="rect9" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.3"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="256.5"
+     inkscape:cy="51.75"
+     inkscape:document-units="mm"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1"
+     showguides="false"
+     inkscape:lockguides="true">
+    <sodipodi:guide
+       position="0,56"
+       orientation="0,1"
+       id="guide3"
+       inkscape:locked="true"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="0,75.999999"
+       orientation="0,1"
+       id="guide4"
+       inkscape:locked="true"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="0,36"
+       orientation="0,1"
+       id="guide5"
+       inkscape:locked="true"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="230.5,112"
+       orientation="-1,0"
+       id="guide6"
+       inkscape:locked="true"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="167,112"
+       orientation="-1,0"
+       id="guide7"
+       inkscape:locked="true"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="fill:#282828;fill-opacity:1;stroke:#ff0000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+     id="rect1"
+     width="253"
+     height="112"
+     x="-6.9388939e-18"
+     y="0"
+     ry="5.0162907"
+     inkscape:label="Base" />
+  <circle
+     style="fill:#00c800;fill-opacity:1;stroke:#ffffff;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:0.99607301"
+     id="BananaPOutline-9"
+     cx="230.5"
+     cy="76"
+     inkscape:label="BananaEOutline"
+     r="7.5" />
+  <circle
+     style="fill:#ff9b00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:0.996073"
+     id="OutputBananaE"
+     cx="230.5"
+     cy="76"
+     inkscape:label="BananaECutout"
+     r="5" />
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:0.99607331"
+     id="BananaNOutline"
+     cx="230.5"
+     cy="56"
+     inkscape:label="BananaNOutline"
+     r="7.5" />
+  <circle
+     style="fill:#ff9b00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+     id="OutputBananaN"
+     cx="230.5"
+     cy="56"
+     inkscape:label="BananaNCutout"
+     r="5" />
+  <circle
+     style="fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:0.99607301"
+     id="BananaPOutline"
+     cx="230.5"
+     cy="36"
+     inkscape:label="BananaPOutline"
+     r="7.5" />
+  <circle
+     style="fill:#ff9b00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+     id="OutputBananaP"
+     cx="230.5"
+     cy="36"
+     inkscape:label="BananaPCutout"
+     r="5" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0;paint-order:stroke fill markers"
+     id="rect7"
+     width="87"
+     height="59"
+     x="123.5"
+     y="-85.5"
+     ry="0.19093084"
+     transform="scale(1,-1)"
+     inkscape:label="ScreenOutline" />
+  <rect
+     style="fill:#ff9b00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:21.3;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect5"
+     width="81"
+     height="53"
+     x="126.50001"
+     y="29.5"
+     ry="0.15634219"
+     inkscape:label="ScreenCutout" />
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+     id="path1"
+     cx="24"
+     cy="41"
+     inkscape:label="Button1"
+     r="4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0;paint-order:stroke fill markers"
+     x="21.843214"
+     y="47.597584"
+     id="text8"
+     transform="scale(1.1116435,0.89956897)"
+     inkscape:label="Text1"><tspan
+       sodipodi:role="line"
+       id="tspan8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;text-align:center;text-anchor:middle;stroke-width:0;stroke:#ffffff;stroke-opacity:0;fill:#ffffff;fill-opacity:1"
+       x="21.843214"
+       y="47.597584">1</tspan></text>
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+     id="path1-6"
+     cx="34"
+     cy="41"
+     inkscape:label="Button2"
+     r="4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0;paint-order:stroke fill markers"
+     x="30.586725"
+     y="47.586559"
+     id="text8-3"
+     transform="scale(1.1116435,0.89956897)"
+     inkscape:label="Text2"><tspan
+       sodipodi:role="line"
+       id="tspan8-5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;text-align:center;text-anchor:middle;stroke-width:0;stroke:#ffffff;stroke-opacity:0;fill:#ffffff;fill-opacity:1"
+       x="30.586725"
+       y="47.586559">2</tspan></text>
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+     id="path1-9"
+     cx="44"
+     cy="41"
+     inkscape:label="Button3"
+     r="4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0;paint-order:stroke fill markers"
+     x="43.998623"
+     y="42.974728"
+     id="text10"
+     inkscape:label="Text3"><tspan
+       sodipodi:role="line"
+       id="tspan10"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;stroke-width:0;stroke:#ffffff;stroke-opacity:0;fill:#ffffff;fill-opacity:1"
+       x="43.998623"
+       y="42.974728">3</tspan></text>
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+     id="path1-4"
+     cx="24"
+     cy="51"
+     inkscape:label="Button4"
+     r="4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0;paint-order:stroke fill markers"
+     x="24.022049"
+     y="52.973351"
+     id="text11"
+     inkscape:label="Text4"><tspan
+       sodipodi:role="line"
+       id="tspan11"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;stroke-width:0;stroke:#ffffff;stroke-opacity:0;fill:#ffffff;fill-opacity:1"
+       x="24.022049"
+       y="52.973351">4</tspan></text>
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+     id="path1-1"
+     cx="34"
+     cy="51"
+     inkscape:label="Button5"
+     r="4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0;paint-order:stroke fill markers"
+     x="34.022049"
+     y="52.94165"
+     id="text12"
+     inkscape:label="Text5"><tspan
+       sodipodi:role="line"
+       id="tspan12"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;stroke-width:0;stroke:#ffffff;stroke-opacity:0;fill:#ffffff;fill-opacity:1"
+       x="34.022049"
+       y="52.94165">5</tspan></text>
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+     id="path1-40"
+     cx="44"
+     cy="51"
+     inkscape:label="Button6"
+     r="4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0;paint-order:stroke fill markers"
+     x="44"
+     y="52.974724"
+     id="text13"
+     inkscape:label="Text6"><tspan
+       sodipodi:role="line"
+       id="tspan13"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;stroke-width:0;stroke:#ffffff;stroke-opacity:0;fill:#ffffff;fill-opacity:1"
+       x="44"
+       y="52.974724">6</tspan></text>
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+     id="path1-8"
+     cx="24"
+     cy="61"
+     inkscape:label="Button7"
+     r="4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0;paint-order:stroke fill markers"
+     x="24.001377"
+     y="62.976105"
+     id="text14"
+     inkscape:label="Text7"><tspan
+       sodipodi:role="line"
+       id="tspan14"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;stroke-width:0;stroke:#ffffff;stroke-opacity:0;fill:#ffffff;fill-opacity:1"
+       x="24.001377"
+       y="62.976105">7</tspan></text>
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+     id="path1-7"
+     cx="34"
+     cy="61"
+     inkscape:label="Button8"
+     r="4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0;paint-order:stroke fill markers"
+     x="33.998623"
+     y="62.977478"
+     id="text15"
+     inkscape:label="Text8"><tspan
+       sodipodi:role="line"
+       id="tspan15"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;stroke-width:0;stroke:#ffffff;stroke-opacity:0;fill:#ffffff;fill-opacity:1"
+       x="33.998623"
+       y="62.977478">8</tspan></text>
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+     id="path1-79"
+     cx="44"
+     cy="61"
+     inkscape:label="Button9"
+     r="4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0;paint-order:stroke fill markers"
+     x="44"
+     y="62.974724"
+     id="text16"
+     inkscape:label="Text9"><tspan
+       sodipodi:role="line"
+       id="tspan16"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;stroke-width:0;stroke:#ffffff;stroke-opacity:0;fill:#ffffff;fill-opacity:1"
+       x="44"
+       y="62.974724">9</tspan></text>
+  <circle
+     style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+     id="path1-73"
+     cx="34"
+     cy="71"
+     inkscape:label="Button0"
+     r="4" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0;paint-order:stroke fill markers"
+     x="34"
+     y="72.974724"
+     id="text17"
+     inkscape:label="Text0"><tspan
+       sodipodi:role="line"
+       id="tspan17"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;stroke-width:0;stroke:#ffffff;stroke-opacity:0;fill:#ffffff;fill-opacity:1"
+       x="34"
+       y="72.974724">0</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0;paint-order:stroke fill markers"
+     x="57.45644"
+     y="10.522952"
+     id="text28"><tspan
+       sodipodi:role="line"
+       id="tspan28"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;stroke-width:0;fill:#ffffff;fill-opacity:1"
+       x="57.45644"
+       y="10.522952">HIGH VOLTAGE POWER SUPPLY</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0;paint-order:stroke fill markers"
+     x="166.99655"
+     y="54.058689"
+     id="text28-7"><tspan
+       sodipodi:role="line"
+       id="tspan66">Orange regions</tspan><tspan
+       sodipodi:role="line"
+       id="tspan67">denote cutout</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;text-align:center;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0.996073;paint-order:stroke fill markers"
+     x="42.467228"
+     y="-7.0228477"
+     id="text62"><tspan
+       sodipodi:role="line"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, @opsz=36.0,wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'opsz' 36, 'wght' 700;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.2;stroke-opacity:0.996073"
+       x="42.467228"
+       y="-7.0228477"
+       id="tspan64">Cut Line</tspan></text>
+  <path
+     style="font-variation-settings:'opsz' 36, 'wght' 700;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:80.5039;stroke-opacity:0.996073;marker-end:url(#ConcaveTriangle);paint-order:stroke fill markers"
+     d="M 27.34023,-9.3542108 H 11.737606 l -0.02609,7.6776731"
+     id="path65"
+     sodipodi:nodetypes="ccc" />
+</svg>
