@@ -1,0 +1,18 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [Keypad.PrjPcb]
+   Generated File[Keypad_Copper_Signal_Top.gbr]
+   Generated File[Keypad_Copper_Signal_Bot.gbr]
+   Generated File[Keypad_Legend_Top.gbr]
+   Generated File[Keypad_Legend_Bot.gbr]
+   Generated File[Keypad_Soldermask_Top.gbr]
+   Generated File[Keypad_Soldermask_Bot.gbr]
+   Generated File[Keypad_Profile.gbr]
+   Generated File[Keypad_NPTH_Drill.gbr]
+   Generated File[Keypad_PTH_Drill.gbr]
+
+
+Files Generated   : 9
+Documents Printed : 0
+
+Finished Output Generation At 9:07:04 PM On 2025-07-02
