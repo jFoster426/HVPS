@@ -12,6 +12,7 @@
 #pragma config FCMENP = OFF
 #pragma config FCMEN = OFF
 #pragma config CSWEN = OFF
+#pragma config BBEN = OFF
 #pragma config PR1WAY = ON
 #pragma config CLKOUTEN = OFF
 
@@ -24,11 +25,12 @@
 #pragma config MCLRE = EXTMCLR
 
 // CONFIG4
-#pragma config XINST = OFF
+#pragma config XINST = 1 // Extended instruction set enabled when 0
+#pragma config DEBUG = 1 // Debugger enabled when 0
 #pragma config LVP = ON
 #pragma config STVREN = ON
 #pragma config PPS1WAY = ON
-#pragma config ZCD = OFF
+#pragma config ZCD = 1 // ZCD enabled when 0
 #pragma config BORV = VBOR_1P9
 
 // CONFIG5
@@ -40,17 +42,20 @@
 #pragma config WDTCWS = WDTCWS_7
 
 // CONFIG7
-#pragma config BBSIZE = BBSIZE_512
-#pragma config BBEN = OFF
-#pragma config SAFEN = OFF
-#pragma config DEBUG = OFF
+#pragma config BBSIZE = BBSIZE_128
 
 // CONFIG8
-#pragma config WRTAPP = OFF
-#pragma config WRTSAF = OFF
-#pragma config WRTD = OFF
-#pragma config WRTC = OFF
-#pragma config WRTB = OFF
+#pragma config SAFSZ = SAFSZ_NONE
 
 // CONFIG9
-#pragma config CP = OFF
+#pragma config WRTAPP = OFF
+#pragma config WRTSAF = OFF
+#pragma config WRTD = 0 // EEPROM write protection is enabled when 0
+#pragma config WRTC = 0 // FLASH write protection is enabled when 0
+#pragma config WRTB = 0 // Boot block write protection is enabled when 0
+
+// CONFIG10
+#pragma config CPD = 0 // EEPROM code protection is enabled when 0
+
+// CONFIG11
+#pragma config CP = 0 // FLASH code protection is enabled when 0
